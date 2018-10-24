@@ -6,6 +6,7 @@
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
+    "output": "mjml hybrid-email.mjml -o hybrid-email.html",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "devDependencies": {
