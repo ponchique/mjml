@@ -15,17 +15,22 @@
     <mj-attributes>
       <mj-all font-family="'Lato', sans-serif" align="center" padding="0px" />
       <!-- Sections!-->
-      <mj-class name="content" background-color="#ffffff" padding-left="6%" padding-right="6%" padding-bottom="48px" padding-top="24px"></mj-class>
+      <mj-class name="content" background-color="#ffffff" padding-left="6%" padding-right="6%" padding-bottom="48px" padding-top="0px"></mj-class>
+      <mj-class name="contact-support" padding-bottom="32px" padding-top="42px"></mj-class>
       <!-- Titles!-->
-      <mj-class name="h2" color="#5A85D7" padding="10px 25px 10px 25px" font-size="32px" font-weight="900" letter-spacing="-1.5px" line-height="36px" />
-      <mj-class name="h3" color="#5A85D7" padding="10px 25px" font-size="24px" font-weight="900" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h1" color="#5A85D7" padding="10px 25px" font-size="44px" font-weight="800" letter-spacing="-1.5px" line-height="39px" />
+      <mj-class name="h2" color="#5A85D7" padding="10px 25px 10px 25px" font-size="32px" font-weight="800" letter-spacing="-1.5px" line-height="36px" />
+      <mj-class name="h3" color="#5A85D7" padding="10px 25px" font-size="24px" font-weight="800" letter-spacing="-1px" line-height="28px" />
       <!-- Text!-->
       <mj-text padding="16px 25px" font-size="18px" line-height="24px" color="#65666C"></mj-text>
-      <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:700,900" />
+      <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
+      <mj-class name="sub-text" font-size="12px" line-height="1.6" padding-top="30px" />
+      <mj-class name="support-help" font-size="14px" line-height="1.4" weight="bold" padding="0" />
       <mj-class name="left" align="left" />
       <!-- Images!-->
-      <mj-class name="top-icon" width="192px" height="auto" alt="Icon" padding-top="24px" bottom-padding="0" />
-      <mj-class name="content-image" width="480px" height="auto" alt="Image" padding-top="24px" bottom-padding="0" />
+      <mj-class name="top-icon" width="192px" height="192px" alt="Icon" padding-top="24px" bottom-padding="0" />
+      <mj-class name="content-image" width="490px" height="auto" alt="Icon" padding-top="24px" bottom-padding="0" />
+      <mj-class name="support-face" width="54px" height="54px" alt="Icon" padding-bottom="10px" />
       <!-- Buttons!-->
       <mj-class name="primary-button" background-color="#00ADEE" color="#FFFFFF" font-size="18px" font-weight="bold" line-height="24px" padding="10px" border-radius="0px" inner-padding="12px 45px 12px 45px" />
       <mj-class name="secondary-button" border="2px solid #00ADEE;" background-color="transparent" color="#00ADEE" font-size="18px" font-weight="bold" line-height="24px" padding="10px" border-radius="0px" inner-padding="12px 45px 12px 45px" />
@@ -47,7 +52,7 @@
         <mj-text mj-class="h2">The wait is over!</mj-text>
         <mj-text mj-class="h3">Hi {{firstName}}</mj-text>
         <mj-text>It's finally time! You`re off the waitlist – you can now open your Bitwala account!</mj-text>
-        <mj-button mj-class="primary-button" href="{{bitwalaWebUrl}}">Open my account</mj-button>
+        <mj-button mj-class="primary-button" href="https://preregister.bitwala.com/">Open my account</mj-button>
       </mj-column>
     </mj-section>
     <!-- middle section -->
@@ -59,26 +64,32 @@
         <mj-image mj-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/f54ca1ee-5e75-4896-8d1c-e306b5470dfc.png"></mj-image>
         <mj-text mj-class="h3">A licensed crypto-trading current-account with contactless debit card</mj-text>
         <mj-text>A sleek, new and intuitive Bitwala account awaits!</mj-text>
-        <mj-button mj-class="primary-button" href="{{bitwalaWebUrl}}">Open account</mj-button>
+        <mj-button mj-class="primary-button" href="https://preregister.bitwala.com/">Open account</mj-button>
       </mj-column>
     </mj-section>
     <!-- footer -->
-    <mj-section background-color="transparent" padding="32px 0 96px">
+    <mj-section mj-class="contact-support">
+      <mj-column>
+        <mj-image mj-class="support-face" src="https://s3.eu-central-1.amazonaws.com/public.bitwala.com/email-assets/support-face.png"></mj-image>
+        <mj-text mj-class="support-help" padding-bottom="0">Need assistance?<br />Our customer support team is happy to help.</mj-text>
+        <mj-text mj-class="support-help" padding-top="0"><a href="mailto:support@bitwala.com">Contact us</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="transparent" padding="0px" padding-bottom="96px">
       <mj-column width="75%">
         <mj-social icon-size="30px" mode="horizontal" padding-bottom="32px" padding-top="0px">
-          <mj-social-element name="bitcoinTalk" src="https://public.bitwala.com/email-assets/bitcoin-social.png" href="https://bitcointalk.org/index.php?topic=944782" padding="5px" background-color="transparent" icon-size="40px">
-          </mj-social-element>
           <mj-social-element name="twitter" src="https://public.bitwala.com/email-assets/twitter-social.png" href="https://twitter.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
           <mj-social-element name="facebook" src="https://public.bitwala.com/email-assets/facebook-social.png" href="https://www.facebook.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
+          </mj-social-element>
+          <mj-social-element name="bitcoinTalk" src="https://public.bitwala.com/email-assets/bitcoin-social.png" href="https://bitcointalk.org/index.php?topic=944782" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
           <mj-social-element name="reddit" src="https://public.bitwala.com/email-assets/reddit-social.png" href="https://www.reddit.com/r/Bitwala/" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
         </mj-social>
         <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="0">
           You are getting this message because you signed up to Bitwala, a product managed by <a href="https://bitwala.com" class="footer-link">Bitwala GmbH</a>.<br />
-          No longerwant to receive our marketing emails? You can unsubscribe <a href="#" class="footer-link">here</a>
-          Ohlauer Str. 43, 10999 Berlin<br />
+          Ohlauer Str. 43, 10999 Berlin. <a href="mailto:support@bitwala.com" class="footer-link">support@bitwala.com</a><br />
           Board of Management | Christoph Iwaniez, Jan Goslicki, Benjamin Jones<br />
           Commercial register | HRB173698B, Charlottenburg<br />
           EU VAT ID | DE305362792<br />
