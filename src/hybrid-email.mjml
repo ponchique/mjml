@@ -55,7 +55,7 @@
         <mj-button mj-class="primary-button" href="https://preregister.bitwala.com/">Open my account</mj-button>
       </mj-column>
     </mj-section>
-    <!-- middle section -->
+    <!-- bottom section -->
     <mj-section mj-class="content">
       <mj-column>
         <mj-text mj-class="h2">Need a quick refresher?</mj-text>
