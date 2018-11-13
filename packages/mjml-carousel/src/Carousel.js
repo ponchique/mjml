@@ -198,7 +198,8 @@ export default class MjCarousel extends BodyComponent {
     return `${carouselCss}\n${fallback}`
   }
 
-  getStyles() { // eslint-disable-line class-methods-use-this
+  getStyles() {
+    // eslint-disable-line class-methods-use-this
     return {
       carousel: {
         div: {
@@ -291,8 +292,9 @@ export default class MjCarousel extends BodyComponent {
             style: 'controls.div',
           })}
         >
-          ${range(1, this.props.children.length + 1).map(
-            i => `
+          ${range(1, this.props.children.length + 1)
+            .map(
+              i => `
               <label
                 ${this.htmlAttributes({
                   for: `mj-carousel-${this.carouselId}-radio-${i}`,
@@ -309,7 +311,8 @@ export default class MjCarousel extends BodyComponent {
                 />
               </label>
             `,
-          ).join('')}
+            )
+            .join('')}
         </div>
       </td>
     `

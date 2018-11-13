@@ -2,12 +2,12 @@
   "name": "mjml-master",
   "private": true,
   "scripts": {
-    "dev": "mjml -w src/hybrid-email.mjml",
+    "dev": "mjml -w src/beta-email.mjml",
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
-    "output": "mjml src/hybrid-email.mjml -o src/hybrid-email.html",
+    "output": "mjml src/beta-email.mjml -o src/beta-email.html",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "devDependencies": {

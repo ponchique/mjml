@@ -159,7 +159,9 @@ export default async () => {
           break
         case 'v': // eslint-disable-line no-case-declarations
           const mjmlJson = MJMLParser(i.mjml, { components })
-          compiled = { errors: validate(mjmlJson, { components, initializeType }) }
+          compiled = {
+            errors: validate(mjmlJson, { components, initializeType }),
+          }
           break
         default:
           compiled = mjml2html(i.mjml, { ...config, filePath: i.file })
@@ -233,8 +235,8 @@ export default async () => {
     }
     case 's': {
       Promise.all(convertedStream.map(outputToConsole))
-        .then(() => process.exitCode = EXIT_CODE) // eslint-disable-line no-return-assign
-        .catch(() => process.exitCode = 1) // eslint-disable-line no-return-assign
+        .then(() => (process.exitCode = EXIT_CODE)) // eslint-disable-line no-return-assign
+        .catch(() => (process.exitCode = 1)) // eslint-disable-line no-return-assign
       break
     }
     default:

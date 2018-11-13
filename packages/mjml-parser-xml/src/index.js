@@ -152,7 +152,8 @@ export default function MJMLParser(xml, options = {}, includedIn = []) {
         if (isAnEndingTag) {
           inEndingTag += 1
 
-          if (inEndingTag === 1) { // we're entering endingTag
+          if (inEndingTag === 1) {
+            // we're entering endingTag
             currentEndingTagIndexes.startIndex = parser.startIndex
             currentEndingTagIndexes.endIndex = parser.endIndex
           }
@@ -194,10 +195,16 @@ export default function MJMLParser(xml, options = {}, includedIn = []) {
         if (endingTags.indexOf(name) !== -1) {
           inEndingTag -= 1
 
-          if (!inEndingTag) { // we're getting out of endingTag
+          if (!inEndingTag) {
+            // we're getting out of endingTag
             // if self-closing tag we don't get the content
             if (!isSelfClosing(currentEndingTagIndexes, parser)) {
-              const val = xml.substring(currentEndingTagIndexes.endIndex + 1, parser.startIndex).trim()
+              const val = xml
+                .substring(
+                  currentEndingTagIndexes.endIndex + 1,
+                  parser.startIndex,
+                )
+                .trim()
               if (val) cur.content = val
             }
           }

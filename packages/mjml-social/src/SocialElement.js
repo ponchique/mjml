@@ -49,7 +49,8 @@ const defaultSocialNetworks = {
   },
   tumblr: {
     src: `${IMG_BASE_URL}tumblr.png`,
-    'share-url': 'https://www.tumblr.com/widgets/share/tool?canonicalUrl=[[URL]]',
+    'share-url':
+      'https://www.tumblr.com/widgets/share/tool?canonicalUrl=[[URL]]',
     'background-color': '#344356',
   },
   github: {
@@ -78,7 +79,6 @@ const defaultSocialNetworks = {
     'background-color': '#D95988',
   },
 }
-
 
 each(defaultSocialNetworks, (val, key) => {
   defaultSocialNetworks[`${key}-noshare`] = {
