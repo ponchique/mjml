@@ -15,24 +15,26 @@
     <mj-attributes>
       <mj-all font-family="'Lato', sans-serif" align="center" padding="0px" />
       <!-- Sections!-->
-      <mj-class name="content" background-color="#ffffff" padding-left="6%" padding-right="6%" padding-bottom="48px" padding-top="0px"></mj-class>
+      <mj-class name="content" background-color="#ffffff" padding-bottom="32px" padding-top="0px"></mj-class>
       <mj-class name="contact-support" padding-bottom="32px" padding-top="42px"></mj-class>
       <!-- Titles!-->
-      <mj-class name="h1" color="#5A85D7" padding="10px 25px" font-size="44px" font-weight="800" letter-spacing="-1.5px" line-height="39px" />
-      <mj-class name="h2" color="#5A85D7" padding="10px 25px 10px 25px" font-size="32px" font-weight="800" letter-spacing="-1.5px" line-height="36px" />
-      <mj-class name="h3" color="#5A85D7" padding="10px 25px" font-size="24px" font-weight="800" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h1" color="#5A85D7" padding="16px 24px" font-size="44px" font-weight="800" letter-spacing="-2.06px" line-height="52px" />
+      <mj-class name="h2" color="#5A85D7" padding="8px 24px" font-size="32px" font-weight="800" letter-spacing="-1.5px" line-height="36px" />
+      <mj-class name="h3" color="#5A85D7" padding="8px 24px" font-size="24px" font-weight="800" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h4" color="#1D4477" padding="8px 24px 0px" font-size="20px" font-weight="800" letter-spacing="-1px" line-height="28px" />
       <!-- Text!-->
-      <mj-text padding="16px 25px" font-size="18px" line-height="24px" color="#65666C"></mj-text>
+      <mj-text padding="12px 24px" font-size="18px" line-height="24px" color="#65666C"></mj-text>
       <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
       <mj-class name="sub-text" font-size="12px" line-height="1.6" padding-top="30px" />
       <mj-class name="support-help" font-size="14px" line-height="1.4" weight="bold" padding="0" />
       <mj-class name="left" align="left" />
       <!-- Images!-->
+      <mj-class name="bitwala-logo" width="180px" height="auto" alt="Bitwala" padding-top="24px" bottom-padding="0" />
       <mj-class name="top-icon" width="192px" height="192px" alt="Icon" padding-top="24px" bottom-padding="0" />
-      <mj-class name="content-image" width="490px" height="auto" alt="Icon" padding-top="24px" bottom-padding="0" />
+      <mj-class name="content-image" width="550px" height="auto" alt="Icon" padding="16px 0px" bottom-padding="0" />
       <mj-class name="support-face" width="54px" height="54px" alt="Icon" padding-bottom="10px" />
       <!-- Buttons!-->
-      <mj-class name="primary-button" background-color="#00ADEE" color="#FFFFFF" font-size="18px" font-weight="bold" line-height="24px" padding="25px" border-radius="0px" inner-padding="12px 45px 12px 45px" />
+      <mj-class name="primary-button" background-color="#00ADEE" color="#FFFFFF" font-size="18px" font-weight="bold" line-height="24px" padding="24px" border-radius="0px" inner-padding="12px 24px" />
       <mj-class name="secondary-button" border="2px solid #00ADEE;" background-color="transparent" color="#00ADEE" font-size="18px" font-weight="bold" line-height="24px" padding="10px" border-radius="0px" inner-padding="12px 45px 12px 45px" />
       <mj-social-element />
       <!-- All mj-styles!-->
@@ -42,38 +44,37 @@
     <!-- header  -->
     <mj-section padding-top="70px" padding-bottom="30px">
       <mj-column width="50%">
-        <mj-image mj-class="bitwala-logo" src="https://public.bitwala.com/email-assets/centered-logo.png" alt="Bitwala Logo" width="180px"></mj-image>
+        <mj-image mj-class="bitwala-logo" src="https://public.bitwala.com/email-assets/centered-logo.png" alt="Bitwala Logo"></mj-image>
       </mj-column>
     </mj-section>
     <!-- top section -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h1">Ready to test Bitwala?</mj-text>
-        <mj-image mj-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/f54ca1ee-5e75-4896-8d1c-e306b5470dfc.png"></mj-image>
+        <mj-text mj-class="h1">You’re the first to use Bitwala!</mj-text>
+        <mj-image mj-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/38dde088-dd73-4363-b4c1-59807563c81d.png"></mj-image>
       </mj-column>
     </mj-section>
     <!-- content section 1 -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h2 left">Hi Andrea,</mj-text>
+        <mj-text mj-class="h3 left">Hi Andrea,</mj-text>
         <mj-text mj-class="left">
-          It’s finally theretime! We’re incredibly excited to
-          share our new product with you. We have worked on this for over a year
-          now and it is time to let our Family and Friends try it first and give
-          us feedback.to have you take part in making Bitwala the first bank
-          account for the crypto economy.
+          It’s finally time! We have been working tirelessly
+          over the past year and today, we’re incredibly excited
+          to have you, <b>our friends and family</b>, be the first to use
+          Bitwala and give us your thoughts and feedback!
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- content section 2 -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h2 left">First things first...</mj-text>
+        <mj-text mj-class="h3 left">First things first...</mj-text>
         <mj-text mj-class="left">
-          As one of the few handpicked beta tester, we would be grateful if you
-          can keep this awesome product away from social media and between us.
-          As soon as we have announced the public launch, we’d love for you to
-          publicly share your experience!
+          As one of the few handpicked beta testers, <b>we would be
+          grateful if you can keep this awesome product away from
+          social media and between us</b>. As soon as we have announced
+          the public launch, we’d love for you to publicly share your experience!
         </mj-text>
         <mj-text mj-class="left">
           So, let’s get started! Here are all the details.
@@ -83,20 +84,20 @@
     <!-- content section 3 -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h2 left">Help us test</mj-text>
+        <mj-text mj-class="h3 left">Help us test</mj-text>
         <mj-text mj-class="left">
-          Today, we’ll begin rolling out an early (but exciting!) version of the
-          Bitwala account that is currently only available via the web app.
-          We invite you to try it out on your laptop or desktop for an optimal
-          user experience. The mobile version will follow as fast as possible
-          and we will keep everybody udpated.
+          Today, we’ll begin rolling out an early (but exciting!) version
+          of the Bitwala account that is currently only available
+          via the web app. We invite you to try it out on your laptop
+          or desktop for an optimal user experience. Our mobile app
+          will follow ASAP—Stay tuned to our social channels for updates!
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- content section 4 -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h2 left">Share your feedback </mj-text>
+        <mj-text mj-class="h3 left">Share your feedback </mj-text>
         <mj-text mj-class="left">
           At Bitwala, we believe that listening to and acting on your
           feedback is the only way to build a brilliant product that
@@ -104,18 +105,18 @@
           out these two short surveys below.
         </mj-text>
         <!-- button -->
-        <mj-text mj-class="left ">
+        <mj-text mj-class="h4 left">
           1st Survey: Sign up and onboarding
         </mj-text>
         <mj-text mj-class="left">
-          Successfully opened your Bitwala account? We’d love to hear
-          your thoughts on your onboarding experience
+          Successfully opened your Bitwala account? We’d
+          love to hear your thoughts on your onboarding experience.
         </mj-text>
         <mj-button mj-class="primary-button" href="https://bitwala.typeform.com/to/aNBiH5">
-          Share about my onboarding
+          Share my thoughts
         </mj-button>
         <!-- button -->
-        <mj-text mj-class="left">
+        <mj-text mj-class="h4 left">
           2nd survey: The Bitwala account
         </mj-text>
         <mj-text mj-class="left">
@@ -125,13 +126,13 @@
           Let us know by clicking below!
         </mj-text>
         <mj-button mj-class="primary-button" href="https://bitwala.typeform.com/to/CCelj1">
-          Give feedback on my Bitwala account
+         Give my feedback
         </mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h2 left">Came across bugs?</mj-text>
+        <mj-text mj-class="h3 left">Came across bugs?</mj-text>
         <mj-text mj-class="left">
           Help us fix and perfect your Bitwala account by reporting the
           bugs you experienced as detailed as you can via this
@@ -140,12 +141,11 @@
           <a href="https://support.bitwala.com/hc/en-gb">Support Centre</a>
           or get in touch via <a href="mailto:support@bitwala.com">support@bitwala.com</a>
         </mj-text>
-        <mj-button mj-class="primary-button" href="">
-          Open my account now
+        <mj-button mj-class="primary-button" href="#">
+          Open account now
         </mj-button>
       </mj-column>
     </mj-section>
-
     <!-- footer -->
     <mj-section mj-class="contact-support">
       <mj-column>
@@ -157,13 +157,13 @@
     <mj-section background-color="transparent" padding="0px" padding-bottom="96px">
       <mj-column width="75%">
         <mj-social icon-size="30px" mode="horizontal" padding-bottom="32px" padding-top="0px">
-          <mj-social-element name="twitter" src="https://public.bitwala.com/email-assets/twitter-social.png" href="https://twitter.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
+          <mj-social-element src="https://public.bitwala.com/email-assets/twitter-social.png" href="https://twitter.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
-          <mj-social-element name="facebook" src="https://public.bitwala.com/email-assets/facebook-social.png" href="https://www.facebook.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
+          <mj-social-element src="https://public.bitwala.com/email-assets/facebook-social.png" href="https://www.facebook.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
-          <mj-social-element name="bitcoinTalk" src="https://public.bitwala.com/email-assets/bitcoin-social.png" href="https://bitcointalk.org/index.php?topic=944782" padding="5px" background-color="transparent" icon-size="40px">
+          <mj-social-element src="https://public.bitwala.com/email-assets/bitcoin-social.png" href="https://bitcointalk.org/index.php?topic=944782" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
-          <mj-social-element name="reddit" src="https://public.bitwala.com/email-assets/reddit-social.png" href="https://www.reddit.com/r/Bitwala/" padding="5px" background-color="transparent" icon-size="40px">
+          <mj-social-element src="https://public.bitwala.com/email-assets/reddit-social.png" href="https://www.reddit.com/r/Bitwala/" padding="5px" background-color="transparent" icon-size="40px">
           </mj-social-element>
         </mj-social>
         <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="0">
