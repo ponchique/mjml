@@ -18,10 +18,10 @@
       <mj-class name="content" background-color="#ffffff" padding-bottom="32px" padding-top="0px"></mj-class>
       <mj-class name="contact-support" padding-bottom="32px" padding-top="42px"></mj-class>
       <!-- Titles!-->
-      <mj-class name="h1" color="#5A85D7" padding="16px 24px" font-size="44px" font-weight="800" letter-spacing="-2.06px" line-height="52px" />
+      <mj-class name="h1" color="#5A85D7" padding="8px 24px" font-size="44px" font-weight="800" letter-spacing="-2.06px" line-height="52px" />
       <mj-class name="h2" color="#5A85D7" padding="8px 24px" font-size="32px" font-weight="800" letter-spacing="-1.5px" line-height="36px" />
-      <mj-class name="h3" color="#5A85D7" padding="8px 24px" font-size="24px" font-weight="800" letter-spacing="-1px" line-height="28px" />
-      <mj-class name="h4" color="#1D4477" padding="8px 24px 0px" font-size="20px" font-weight="800" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h3" color="#5A85D7" padding="8px 24px 0" font-size="24px" font-weight="800" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h4" color="#1D4477" padding="8px 24px 0" font-size="20px" font-weight="800" letter-spacing="-1px" line-height="28px" />
       <!-- Text!-->
       <mj-text padding="12px 24px" font-size="18px" line-height="24px" color="#65666C"></mj-text>
       <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
