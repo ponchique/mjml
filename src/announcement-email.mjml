@@ -42,7 +42,7 @@
   </mj-head>
   <mj-body background-color="#eff1f4">
     <!-- header  -->
-    <mj-section padding="16px" padding-top="70px"  padding-bottom="30px">
+    <mj-section padding="16px" padding-top="70px" padding-bottom="30px">
       <mj-column width="50%">
         <mj-image mj-class="bitwala-logo" src="https://public.bitwala.com/email-assets/centered-logo.png" alt="Bitwala Logo"></mj-image>
       </mj-column>
@@ -57,30 +57,19 @@
     <!-- content section 1 -->
     <mj-section mj-class="content">
       <mj-column>
-        <mj-text mj-class="h3 left">Dear *|FNAME|*,</mj-text>
+        <mj-text mj-class="h3 left">Hey there</mj-text>
         <mj-text mj-class="left">
           Today, we’re excited to officially announce the launch of the all-new Bitwala Accounts!
         </mj-text>
         <mj-text mj-class="left">
-          It is the first time ever, that users can manage both bitcoin and Euro deposits
-          and trade cryptocurrencies in one place with the safety and convenience of a
-          German bank account. Bitwala is launching at first in Germany and we plan to
-          expand quickly within the coming months.
-        </mj-text>
-        <mj-text mj-class="left">
-          Together with you, we’re excited to mark this moment. We believe
-          that this will foster the mainstream adoption of cryptocurrencies
-          and help people to easily integrate cryptocurrencies into their daily lives.
+          It is the first time ever, that users can manage both
+          bitcoin and Euro deposits and trade cryptocurrencies
+          in one place with the safety and convenience of a German bank account.
         </mj-text>
         <mj-text mj-class="left">
           Onboarding will begin starting from today. You will receive an email with short
           instructions on how to create your account once your turn is up. Please bear
           with us if you do not receive an email right away.
-        </mj-text>
-        <mj-text mj-class="left">
-          We’ll be gradually inviting all 40,000 of you who pre-registered
-          over the next months. Keep an eye on your position on our waitlist
-          and we will do our best so you don’t have to wait for long. 🚀
         </mj-text>
         <mj-text mj-class="left">
           Can’t wait to get your hands on the Bitwala account?<br>
@@ -110,12 +99,17 @@
           </mj-social-element>
         </mj-social>
         <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="0">
-          You are getting this message because you signed up to Bitwala, a product managed by <a href="https://bitwala.com" class="footer-link">Bitwala GmbH</a>.<br />
+          You are getting this message because you signed up to Bitwala, a product managed by <a href="https://bitwala.com" class="footer-link">Bitwala GmbH</a>.<br /><br />
+          No longer want to receive our marketing emails?<br />
+          You can <a href="*|UNSUB|*" class="footer-link">unsubscribe</a><br><br />
           Ohlauer Str. 43, 10999 Berlin. <a href="mailto:support@bitwala.com" class="footer-link">support@bitwala.com</a><br />
           Board of Management | Christoph Iwaniez, Jan Goslicki, Benjamin Jones<br />
           Commercial register | HRB173698B, Charlottenburg<br />
           EU VAT ID | DE305362792<br />
           <a href="https://www.bitwala.com/imprint/" class="footer-link">Imprint</a>
+        </mj-text>
+        <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="16px">
+
         </mj-text>
       </mj-column>
     </mj-section>
