@@ -2,12 +2,12 @@
   "name": "mjml-master",
   "private": true,
   "scripts": {
-    "dev": "mjml -w src/announcement-email.mjml",
+    "dev": "mjml -w src/verification-email-de.mjml",
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
-    "output": "mjml src/announcement-email.mjml -o src/announcement-email.html",
+    "output": "mjml src/verification-email-en.mjml -o src/verification-email-en.html",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "devDependencies": {
