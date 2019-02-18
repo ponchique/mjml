@@ -7,7 +7,7 @@
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
-    "output": "mjml src/verification-email-en.mjml -o src/verification-email-en.html",
+    "output": "mjml src/text-only.mjml -o src/text-only.html",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "devDependencies": {
