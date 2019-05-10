@@ -15,7 +15,7 @@
     <mj-attributes>
       <mj-all font-family="'Lato', sans-serif" align="center" padding="0px" />
       <!-- Sections!-->
-      <mj-class name="content" background-color="#ffffff" padding="24px 2.5%"></mj-class>
+      <mj-class name="content" background-color="#ffffff" padding="24px 0"></mj-class>
       <mj-class name="contact-support" padding-bottom="32px" padding-top="42px"></mj-class>
       <!-- Titles!-->
       <mj-class name="h1" color="#5A85D7" padding="8px 24px" font-size="44px" font-weight="800" letter-spacing="-2.06px" line-height="52px" />
@@ -69,13 +69,15 @@
           Für weitere Fragen stehen wir dir gerne zur Verfügung. </mj-text>
         <mj-text mj-class="left">
           Mit freundlichen Grüßen
-
         </mj-text>
+        <mj-button mj-class="primary-button" href="https://staging--bitwala.netlify.com/static/img/special-terms-and-conditions-for-3d-secure.pdf">
+            View changes
+        </mj-button>
       </mj-column>
     </mj-section>
 
     <!-- footer -->
-    <mj-section background-color="#eff1f4" padding="72px">
+    <mj-section full-width="full-width" background-color="#eff1f4" padding="72px">
       <mj-column width="75%">
         <mj-social icon-size="30px" mode="horizontal" padding-bottom="32px" padding-top="0px">
           <mj-social-element src="https://public.bitwala.com/email-assets/twitter-social.png" href="https://twitter.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
@@ -88,9 +90,9 @@
           </mj-social-element>
         </mj-social>
         <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="0">
-          You are getting this message because you signed up to Bitwala, a product managed by <a href="https://bitwala.com" class="footer-link">Bitwala GmbH</a>.<br /><br />
+          You are getting this message because you signed up to Bitwala, a product managed by Bitwala GmbH.<br /><br />
           No longer want to receive our marketing emails?<br />
-          You can <a href="*|UNSUB|*" class="footer-link">unsubscribe</a><br><br />
+          You can <a href="{% unsubscribe_url %}" class="footer-link">unsubscribe</a><br><br />
           Ohlauer Str. 43, 10999 Berlin. <a href="mailto:support@bitwala.com" class="footer-link">support@bitwala.com</a><br />
           Board of Management | Christoph Iwaniez, Jan Goslicki, Benjamin Jones<br />
           Commercial register | HRB173698B, Charlottenburg<br />

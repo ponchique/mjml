@@ -1,0 +1,227 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="414px" />
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:400,700,900" />
+    <mj-preview>Bitwala placeholder text</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: none !important;
+        color: #03adee;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        text-decoration: underlined !important;
+        color: #abadb7;
+      }
+
+      .h1 div {
+        font-size: 28px !important;
+        font-weight: 700 !important;
+        letter-spacing: -1.5px;
+        line-height: 34px !important;
+      }
+
+      .h3 div {
+        padding: 0px 0px !important;
+      }
+
+      .content {
+        background-color: #ffffff;
+        padding: 16px !important;
+        max-width: 559px !important;
+      }
+      .content-last {
+        padding-bottom: 32px !important;
+      }
+
+      .content-image {
+        padding: 16px 0px !important;
+      }
+      .ios-btn-image {
+        max-width: 125px !important;
+      }
+
+      .text {
+        padding: 12px 0px !important;
+        font-size: 18px !important;
+      }
+
+
+      .footer {
+        padding: 48px 0px !important;
+        max-width: 280px !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media all and (min-width: 768px) {
+        .h1 div {
+          font-size: 44px !important;
+          font-weight: 800 !important;
+          padding-top: 0px !important;
+          letter-spacing: -2.7px;
+          line-height: 48px !important;
+        }
+
+        .h3 div {
+          padding: 0px 18px !important;
+        }
+
+        .content-image {
+          padding: 24px 0px !important;
+        }
+
+        .content-last {
+          padding-bottom: 48px !important;
+        }
+
+        .footer {
+          padding: 72px 16px !important;
+        }
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-all font-family="Lato, sans-serif" align="center" padding="0px" />
+      <!-- Sections!-->
+      <mj-class name="contact-support" padding-bottom="32px" padding-top="42px"></mj-class>
+      <!-- Titles!-->
+      <mj-class name="h1" color="#5A85D7" />
+      <mj-class name="h2" color="#5A85D7" font-size="32px" font-weight="700" letter-spacing="-1.5px" line-height="36px" />
+      <mj-class name="h3" color="#5A85D7" font-size="24px" font-weight="700" letter-spacing="-1px" line-height="28px" />
+      <mj-class name="h4" color="#1D4477" padding="8px 8px 0" font-size="20px" font-weight="700" letter-spacing="-1px" line-height="28px" />
+      <!-- Text!-->
+      <mj-text padding="12px 0px" font-size="18px" line-height="24px" color="#65666C"></mj-text>
+      <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
+      <mj-class name="sub-text" font-size="12px" line-height="1.6" padding-top="30px" />
+      <mj-class name="support-help" font-size="14px" line-height="1.4" weight="bold" padding="0" />
+      <mj-class name="left" align="left" />
+      <!-- Images!-->
+      <mj-class name="bitwala-logo" width="170px" height="auto" alt="Bitwala" />
+      <mj-class name="ios-btn" width="150px" padding="12px 0px" height="auto" alt="ios button" />
+      <mj-class name="android-logo" width="131px" padding="12px 0px" height="auto" alt="ios button" />
+      <mj-class name="top-icon" width="192px" height="192px" alt="Icon" padding-top="24px" />
+      <mj-class name="content-image" width="559px" height="auto" alt="Image" />
+      <mj-class name="content-icon" width="84px" height="auto" alt="Icon" padding="24px" />
+      <mj-class name="support-face" width="54px" height="54px" alt="Icon" padding-bottom="10px" />
+      <!-- Buttons!-->
+      <mj-class name="primary-button" background-color="#00ADEE" color="#FFFFFF" font-size="18px" font-weight="bold" line-height="24px" padding="24px" border-radius="0px" inner-padding="12px 24px" />
+      <mj-class name="secondary-button" border="2px solid #00ADEE;" background-color="transparent" color="#00ADEE" font-size="18px" font-weight="bold" line-height="24px" padding="10px" border-radius="0px" inner-padding="12px 45px 12px 45px" />
+      <mj-social-element />
+      <!-- All mj-styles!-->
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <!-- header  -->
+    <mj-section padding="16px" padding-top="72px" padding-bottom="0px">
+      <mj-column width="50%">
+        <mj-image mj-class="bitwala-logo" src="https://public.bitwala.com/email-assets/centered-logo.png" alt="Bitwala Logo"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-section css-class="content content-last" padding="0px">
+    <!-- content start-->
+
+      <mj-column>
+        <!-- heading + image -->
+        <mj-text mj-class="h1" css-class="h1">Verifiziere dich jetzt und starte Blockchain Banking!</mj-text>
+        <mj-image mj-class="content-image" css-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+
+
+
+         <!-- content 1 -->
+        <mj-text mj-class="h3 left" css-class="text">Hi ponchihque,</mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Bist du noch nicht verifiziert? Kein Problem. Wir zeigen dir,
+          wie einfach es ist, dein Bitwala Konto einzurichten und wie
+          du es danach direkt benutzen kannst.
+        </mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Es reicht <b>ein kurzer Videoanruf</b> zur Verifikation mit einem
+          entsprechenden Spezialisten (einem echten Menschen), der
+          deine Identität überprüft und schon bist du dabei!
+        </mj-text>
+        <mj-image mj-class="ios-btn" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+        <!-- content 2 -->
+        <mj-image mj-class="content-image" css-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+        <mj-text mj-class="h3 left" css-class="text">Hi ponchihque,</mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Bist du noch nicht verifiziert? Kein Problem. Wir zeigen dir,
+          wie einfach es ist, dein Bitwala Konto einzurichten und wie
+          du es danach direkt benutzen kannst.
+        </mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Es reicht <b>ein kurzer Videoanruf</b> zur Verifikation mit einem
+          entsprechenden Spezialisten (einem echten Menschen), der
+          deine Identität überprüft und schon bist du dabei!
+        </mj-text>
+
+        <!-- content 3 -->
+        <mj-image mj-class="content-image" css-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+        <mj-text mj-class="h3 left" css-class="text">Hi ponchihque,</mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Bist du noch nicht verifiziert? Kein Problem. Wir zeigen dir,
+          wie einfach es ist, dein Bitwala Konto einzurichten und wie
+          du es danach direkt benutzen kannst.
+        </mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Es reicht <b>ein kurzer Videoanruf</b> zur Verifikation mit einem
+          entsprechenden Spezialisten (einem echten Menschen), der
+          deine Identität überprüft und schon bist du dabei!
+        </mj-text>
+        
+        <!-- content 4 -->
+        <mj-image mj-class="content-image" css-class="content-image" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+        <mj-text mj-class="h3 left" css-class="text">Hi ponchihque,</mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Bist du noch nicht verifiziert? Kein Problem. Wir zeigen dir,
+          wie einfach es ist, dein Bitwala Konto einzurichten und wie
+          du es danach direkt benutzen kannst.
+        </mj-text>
+        <mj-text mj-class="left" css-class="text">
+          Es reicht <b>ein kurzer Videoanruf</b> zur Verifikation mit einem
+          entsprechenden Spezialisten (einem echten Menschen), der
+          deine Identität überprüft und schon bist du dabei!
+        </mj-text>
+         <mj-image mj-class="ios-btn" padding="24px 0px 64px" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+         <mj-image mj-class="android-logo" src="https://gallery.mailchimp.com/11f94e821334f2f282ef3be5f/images/1cbf3054-7401-4ed2-aea6-b9c4250260f4.png"></mj-image>
+        <mj-text mj-class="h2" css-class="text">Hi ponchihque,</mj-text>
+        <mj-text css-class="text">
+          Bist du noch nicht verifiziert? Kein Problem. Wir zeigen dir,
+          wie einfach es ist, dein Bitwala Konto einzurichten und wie
+          du es danach direkt benutzen kannst<a href='asdas'>asdasd</a>
+        </mj-text>
+
+      </mj-column>
+      
+    <!-- content end-->
+    </mj-section>
+
+    <!-- footer -->
+    <mj-section full-width="full-width" background-color="#eff1f4">
+      <mj-column width="288px" css-class="footer">
+        <mj-social icon-size="30px" mode="horizontal" padding-bottom="32px" padding-top="0px">
+          <mj-social-element src="https://public.bitwala.com/email-assets/twitter-social.png" href="https://twitter.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
+          </mj-social-element>
+          <mj-social-element src="https://public.bitwala.com/email-assets/facebook-social.png" href="https://www.facebook.com/bitwala" padding="5px" background-color="transparent" icon-size="40px">
+          </mj-social-element>
+          <mj-social-element src="https://public.bitwala.com/email-assets/bitcoin-social.png" href="https://bitcointalk.org/index.php?topic=944782" padding="5px" background-color="transparent" icon-size="40px">
+          </mj-social-element>
+          <mj-social-element src="https://public.bitwala.com/email-assets/reddit-social.png" href="https://www.reddit.com/r/Bitwala/" padding="5px" background-color="transparent" icon-size="40px">
+          </mj-social-element>
+        </mj-social>
+        <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="0">
+          Du erhältst diese Nachricht, weil du dich bei Bitwala, einem Produkt der Bitwala GmbH, angemeldet hast.<br /><br />
+          Möchtest du keine Marketing Nachrichten mehr bekommen? <a href="" class="footer-link">Hier</a> kannst du dich austragen.<br /><br />
+          Ohlauer Str. 43, 10999 Berlin. <a href="mailto:support@bitwala.com" class="footer-link">support@bitwala.com</a><br />
+          Vorstandsmitglieder | Christoph Iwaniez, Jan Goslicki, Benjamin Jones<br />
+          Handelsregistereintrag | HRB173698B, Charlottenburg<br />
+          EU VAT ID | DE305362792<br />
+          <a href="https://www.bitwala.com/de/imprint/" class="footer-link">Impressum</a>
+        </mj-text>
+        <mj-text font-size="10px" line-height="14px" color="#abadb7" padding="16px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -2,12 +2,12 @@
   "name": "mjml-master",
   "private": true,
   "scripts": {
-    "dev": "mjml -w src/verification-email-de.mjml",
+    "dev": "mjml -w src/mobile-app-launch.mjml",
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
-    "output": "mjml src/text-only.mjml -o src/text-only.html",
+    "output": "mjml src/mobile-app-launch.mjml -o src/mobile-app-launch.html",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "devDependencies": {
